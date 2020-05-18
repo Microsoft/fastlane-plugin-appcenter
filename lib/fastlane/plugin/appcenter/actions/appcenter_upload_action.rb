@@ -21,6 +21,9 @@ module Fastlane
       APPCENTER_BUILD_INFORMATION = :APPCENTER_BUILD_INFORMATION
     end
 
+    class RetryableException < StandardError
+    end
+
     class AppcenterUploadAction < Action
       def self.is_apple_build(file)
         return false unless file
@@ -261,7 +264,7 @@ module Fastlane
 
         begin
           if Helper::AppcenterHelper.get_app(api_token, owner_name, app_name)
-            return true
+            return :got_app
           end
         rescue URI::InvalidURIError
           UI.user_error!("Provided app_name: '#{app_name}' is not in a valid format. Please ensure no special characters or spaces in the app_name.")
@@ -278,7 +281,9 @@ module Fastlane
             platform = platforms[os.to_sym].length == 1 ? platforms[os.to_sym][0] : UI.select("Select Platform", platforms[os.to_sym])
           end
 
-          Helper::AppcenterHelper.create_app(api_token, owner_type, owner_name, app_name, app_display_name, os, platform)
+          if Helper::AppcenterHelper.create_app(api_token, owner_type, owner_name, app_name, app_display_name, os, platform)
+            return :created_app
+          end
         else
           UI.error("Lane aborted")
           false
@@ -293,15 +298,27 @@ module Fastlane
 
         Options.strict_mode(params[:strict])
 
-        # if app found or successfully created
-        if self.get_or_create_app(params)
+        release = nil
+        case self.get_or_create_app(params)
+        when :created_app
+          each_retry = Proc.new do |exception, try, elapsed_time, next_interval|
+            UI.message("Release upload failed (#{exception.message}), retrying. Attempt# #{try}. #{next_interval} seconds until the next try.")
+          end
+          Retriable.retriable(tries: 60, on_retry: each_retry) do
+            release = self.run_release_upload(params) unless upload_dsym_only || upload_mapping_only
+            raise RetryableException unless release
+          end
+        when :got_app
           release = self.run_release_upload(params) unless upload_dsym_only || upload_mapping_only
-          params[:version] = release['short_version'] if release
-          params[:build_number] = release['version'] if release
-
-          self.run_dsym_upload(params) unless upload_mapping_only || upload_build_only
-          self.run_mapping_upload(params) unless upload_dsym_only || upload_build_only
+        else
+          return
         end
+
+        params[:version] = release['short_version'] if release
+        params[:build_number] = release['version'] if release
+
+        self.run_dsym_upload(params) unless upload_mapping_only || upload_build_only
+        self.run_mapping_upload(params) unless upload_dsym_only || upload_build_only
 
         return values if Helper.test?
       end
