@@ -126,6 +126,7 @@ module Fastlane
         build_number = params[:build_number]
         version = params[:version]
         dsa_signature = params[:dsa_signature]
+        eddsa_signature = params[:eddsa_signature]
 
         if release_notes.length >= Constants::MAX_RELEASE_NOTES_LENGTH
           unless should_clip
@@ -198,7 +199,7 @@ module Fastlane
             UI.message("Release '#{release_id}' committed: #{release_url}")
 
             release = Helper::AppcenterHelper.update_release(api_token, owner_name, app_name, release_id, release_notes)
-            Helper::AppcenterHelper.update_release_metadata(api_token, owner_name, app_name, release_id, dsa_signature)
+            Helper::AppcenterHelper.update_release_metadata(api_token, owner_name, app_name, release_id, dsa_signature, eddsa_signature)
 
             destinations_array = []
             if destinations == '*'
@@ -606,6 +607,12 @@ module Fastlane
                                        description: "Request timeout in seconds",
                                        optional: true,
                                        type: Integer),
+
+          FastlaneCore::ConfigItem.new(key: :eddsa_signature,
+                                       env_name: "APPCENTER_DISTRIBUTE_EDDSA_SIGNATURE",
+                                       description: "EDDSA signature of the macOS or Windows release for Sparkle update feed",
+                                       optional: true,
+                                       type: String),
 
           FastlaneCore::ConfigItem.new(key: :dsa_signature,
                                        env_name: "APPCENTER_DISTRIBUTE_DSA_SIGNATURE",

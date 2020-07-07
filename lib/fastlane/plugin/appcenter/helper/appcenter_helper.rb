@@ -409,12 +409,13 @@ module Fastlane
       end
 
       # updates release metadata
-      def self.update_release_metadata(api_token, owner_name, app_name, release_id, dsa_signature)
+      def self.update_release_metadata(api_token, owner_name, app_name, release_id, dsa_signature, eddsa_signature)
         return if dsa_signature.to_s == ''
 
         url = "v0.1/apps/#{owner_name}/#{app_name}/releases/#{release_id}"
         body = {
           metadata: {
+            ed_signature: eddsa_signature,
             dsa_signature: dsa_signature
           }
         }
