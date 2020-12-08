@@ -5,6 +5,7 @@
     "short_version": "1.0.0",
     "version": "1.0.0.101",
     "uploaded_at": "2019-09-03T12:14:59.000Z",
+    "release_notes": "note 4",
     "enabled": true
   },
   {
@@ -13,6 +14,7 @@
     "short_version": "1.0.1",
     "version": "1.0.1.102",
     "uploaded_at": "2019-09-05T17:42:55.000Z",
+    "release_notes": "note 5",
     "enabled": true
   },
   {
@@ -21,6 +23,7 @@
     "short_version": "1.0.2",
     "version": "1.0.2.103",
     "uploaded_at": "2019-08-28T13:15:51.000Z",
+    "release_notes": "note 3",
     "enabled": true
   },
   {
@@ -29,6 +32,7 @@
     "short_version": "1.0.3",
     "version": "1.0.3.104",
     "uploaded_at": "2019-09-06T19:55:03.000Z",
+    "release_notes": "note 2",
     "enabled": true,
     "destinations": [
       {
@@ -51,6 +55,7 @@
     "version": "1.0.4.105",
     "uploaded_at": "2019-09-06T19:33:21.000Z",
     "enabled": true,
+    "release_notes": "note 7",
     "destinations": [
       {
         "id": "aaaaaaaa-1111-1aa1-1aa1-1111aaaa1111",

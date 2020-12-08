@@ -553,7 +553,7 @@ module Fastlane
         body = {
           metadata: {}
         }
-        
+
         if dsa_signature.to_s != ''
           body[:metadata]["dsa_signature"] = dsa_signature
         end
@@ -639,7 +639,7 @@ module Fastlane
         end
       end
 
-      # returns true if app exists, false in case of 404 and error otherwise
+      # returns the app if it exists, false in case of 404 and error otherwise
       def self.get_app(api_token, owner_name, app_name)
         connection = self.connection
 
@@ -657,7 +657,7 @@ module Fastlane
         case response.status
         when 200...300
           UI.message("DEBUG: #{JSON.pretty_generate(response.body)}\n") if ENV['DEBUG']
-          true
+          response.body
         when 404
           UI.message("DEBUG: #{JSON.pretty_generate(response.body)}\n") if ENV['DEBUG']
           false
@@ -697,7 +697,7 @@ module Fastlane
         when 200...300
           created = response.body
           UI.success("Created #{os}/#{platform} app with name \"#{created['name']}\" and display name \"#{created['display_name']}\" for #{owner_type} \"#{owner_name}\"")
-          true
+          created
         when 401
           UI.user_error!("Auth Error, provided invalid token")
           false

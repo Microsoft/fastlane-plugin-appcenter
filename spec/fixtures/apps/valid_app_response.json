@@ -1,0 +1,26 @@
+{
+  "id": "aaaaaaaa-1111-1aa1-1aa1-1111aaaa1111",
+  "app_secret": "aaaaaaaa-1111-1aa1-1aa1-1111aaaa1111",
+  "description": "Beta",
+  "display_name": "My App β",
+  "name": "%<app_name>s",
+  "os": "iOS",
+  "platform": "Objective-C-Swift",
+  "origin": "hockeyapp",
+  "icon_url": "https://rink.hockeyapp.net/api/2/apps/12345?format=png",
+  "created_at": "2019-04-09T08:07:30.000Z",
+  "updated_at": "2019-04-23T08:52:46.000Z",
+  "release_type": "Beta",
+  "owner": {
+    "id": "aaaaaaaa-1111-1aa1-1aa1-1111aaaa1111",
+    "avatar_url": null,
+    "display_name": "Owner Name",
+    "email": "owner_name@example.com",
+    "name": "%<owner_name>s",
+    "type": "user"
+  },
+  "azure_subscription": null,
+  "member_permissions": [
+    "manager"
+  ]
+}

@@ -21,7 +21,11 @@ With [App Center](https://appcenter.ms) you can continuously build, test, releas
 
 `appcenter_upload` allows you to upload and [distribute](https://docs.microsoft.com/en-us/appcenter/distribution/uploading) apps to your testers on App Center as well as to upload .dSYM files to [collect detailed crash reports](https://docs.microsoft.com/en-us/appcenter/crashes/ios) in App Center.
 
-`appcenter_fetch_version_number` allows you to obtain the latest version number (short or full) for an app. This is useful for tasks such as getting the latest version of an app so that an increment action can take place on CI, or checking that an upload has been successful.
+`appcenter_fetch_version_number` allows you to obtain the latest version number (short or full) and release notes for an app. This is useful for tasks such as getting the latest version of an app so that an increment action can take place on CI, or checking that an upload has been successful.
+
+`appcenter_fetch_app` allows you to obtain the details of the given app. This is useful for retrieving the app_secret for a specific App Center app.
+
+`appcenter_create_app` allows you to create an app without uploading a release for it.  Supports "create if not exists" semantics. This is useful for retrieving an app_secret before building an app.
 
 ## Usage
 
@@ -57,11 +61,41 @@ appcenter_fetch_version_number(
 )
 ```
 
-The `appcenter_fetch_version_number` returns a hash that contains the id, the version number, and the build number. The version corresponds to the `short_version` and the build number to the `version` known by App Center for a given release:
+The `appcenter_fetch_version_number` returns a hash that contains the id, the version number, the build number, and the release notes of the most recent release. 
+The version corresponds to the `short_version` and the build number to the `version` known by App Center for a given release:
 ```ruby
-{"id"=>1, "version"=>"1.0.0", "build_number"=>"1.0.0.1234"} # iOS apps contain the full version plus build number due to the way that Apple use CFBundleVersion for this value
-{"id"=>588, "version"=>"1.2.0", "build_number"=>"1615"}
+{"id"=>1, "version"=>"1.0.0", "build_number"=>"1.0.0.1234", "release_notes"=>"Release version 1.0.0"} # iOS apps contain the full version plus build number due to the way that Apple use CFBundleVersion for this value
+{"id"=>588, "version"=>"1.2.0", "build_number"=>"1615", "release_notes"=>"No changelog given"}
 ```
+
+```ruby
+appcenter_fetch_app(
+  api_token: "<appcenter token>",
+  owner_name: "<appcenter account name of the owner of the app (username or organization URL name)>",
+  app_name: "<appcenter app name (as seen in app URL)>"
+)
+```
+
+```ruby
+appcenter_create_app(
+  api_token: "<appcenter token>",
+  owner_name: "<appcenter account name of the owner of the app (username or organization URL name)>",
+  owner_type: "user", # Default is user - set to organization for appcenter organizations
+  app_name: "<appcenter app name (as seen in app URL)>",
+  app_display_name: "<appcenter app display name>",
+  app_os: "<appcenter app os>",
+  app_platform: "<appcenter app platform>",
+  error_on_create_existing: false # Set to false if you don't want to error if the release already exists (default: `true`)
+)
+```
+All fields except 'error_on_create_existing' are required. 
+
+THe `appcenter_create_app` action creates an App Center app with the given attributes and 
+returns a hash of the newly created app with generated values.  
+
+If the app already exists, action aborts with error.  
+
+If the 'error_on_create_existing' is set to false, an existing app will not error and instead return the app hash unchanged.
 
 ### Help
 
@@ -133,6 +167,26 @@ Here is the list of all existing parameters:
 | `owner_name` <br/> `APPCENTER_OWNER_NAME` | Owner name, as found in the App's URL in App Center |
 | `app_name` <br/> `APPCENTER_APP_NAME` | App name as found in the App's URL in App Center. If there is no app with such name, you will be prompted to create one |
 | `version` <br/> `APPCENTER_APP_VERSION` | App version to get the last release for instead of the last release of all versions |
+
+#### `appcenter_fetch_app`
+
+| Key & Env Var | Description |
+|-----------------|--------------------|
+| `api_token` <br/> `APPCENTER_API_TOKEN` | API Token for App Center |
+| `owner_name` <br/> `APPCENTER_OWNER_NAME` | Owner name, as found in the App's URL in App Center |
+| `app_name` <br/> `APPCENTER_APP_NAME` | App name as found in the App's URL in App Center. If there is no app with such name, you will be prompted to create one |
+
+#### `appcenter_create_app`
+
+| Key & Env Var | Description |
+|-----------------|--------------------|
+| `api_token` <br/> `APPCENTER_API_TOKEN` | API Token for App Center |
+| `owner_type` <br/> `APPCENTER_OWNER_TYPE` | Owner type, either 'user' or 'organization' (default: `user`) |
+| `owner_name` <br/> `APPCENTER_OWNER_NAME` | Owner name as found in the App's URL in App Center |
+| `app_name` <br/> `APPCENTER_APP_NAME` | Unique immutable app name |
+| `app_display_name` <br/> `APPCENTER_APP_DISPLAY_NAME` | App display name |
+| `app_os` <br/> `APPCENTER_APP_OS` | App OS. |
+| `app_platform` <br/> `APPCENTER_APP_PLATFORM` | App Platform. |
 
 ## Example
 

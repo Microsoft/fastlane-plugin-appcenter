@@ -25,7 +25,7 @@ module Fastlane
           api_token: api_token,
           owner_name: owner_name,
           app_name: app_name,
-        )
+          )
 
         UI.abort_with_message!("No versions found for '#{app_name}' owned by #{owner_name}") unless releases
 
@@ -49,10 +49,11 @@ module Fastlane
         end
 
         return {
-                 "id" => latest_release["id"],
-                 "version" => latest_release["short_version"],
-                 "build_number" => latest_release["version"],
-               }
+          "id" => latest_release["id"],
+          "version" => latest_release["short_version"],
+          "build_number" => latest_release["version"],
+          "release_notes" => latest_release["release_notes"],
+        }
       end
 
       def self.available_options

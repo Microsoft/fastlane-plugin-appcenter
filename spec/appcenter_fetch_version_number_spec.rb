@@ -103,14 +103,14 @@ describe Fastlane::Actions::AppcenterFetchVersionNumberAction do
     context "when no errors are expected" do
       let(:app) do
         {
-        "display_name" => "My App Name",
-            "name" => 'App-Name',
-            "owner" => {
-              "display_name" => 'Owner Name',
-              "email" => 'test@example.com',
-              "name" => 'owner-name'
-            }
-      }
+          "display_name" => "My App Name",
+          "name" => 'App-Name',
+          "owner" => {
+            "display_name" => 'Owner Name',
+            "email" => 'test@example.com',
+            "name" => 'owner-name'
+          }
+        }
       end
 
       before :each do
@@ -135,6 +135,7 @@ describe Fastlane::Actions::AppcenterFetchVersionNumberAction do
           expect(version["id"]).to eq(7)
           expect(version["version"]).to eq("1.0.4")
           expect(version["build_number"]).to eq("1.0.4.105")
+          expect(version["release_notes"]).to eq('note 7')
         end
       end
 
@@ -155,6 +156,7 @@ describe Fastlane::Actions::AppcenterFetchVersionNumberAction do
           expect(version["id"]).to eq(5)
           expect(version["version"]).to eq("1.0.1")
           expect(version["build_number"]).to eq("1.0.1.102")
+          expect(version["release_notes"]).to eq('note 5')
         end
       end
     end

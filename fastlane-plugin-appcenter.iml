@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="rbenv: 2.6.5" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="CFPropertyList (vbundled(3.0.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/CFPropertyList-3.0.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/CFPropertyList-3.0.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="addressable (vbundled(2.7.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/data" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/tasks" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/data" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/tasks" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/data" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/tasks" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ast (vbundled(2.4.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/ast-2.4.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/ast-2.4.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="atomos (vbundled(0.1.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/atomos-0.1.3/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/atomos-0.1.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/atomos-0.1.3/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/atomos-0.1.3/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/atomos-0.1.3/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="aws-eventstream (vbundled(1.1.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/aws-eventstream-1.1.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/aws-eventstream-1.1.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="aws-partitions (vbundled(1.306.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/aws-partitions-1.306.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/aws-partitions-1.306.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="aws-sdk-core (vbundled(3.94.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/aws-sdk-core-3.94.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/aws-sdk-core-3.94.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="aws-sdk-kms (vbundled(1.30.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/aws-sdk-kms-1.30.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/aws-sdk-kms-1.30.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="aws-sdk-s3 (vbundled(1.63.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/aws-sdk-s3-1.63.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/aws-sdk-s3-1.63.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="aws-sigv4 (vbundled(1.1.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/aws-sigv4-1.1.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/aws-sigv4-1.1.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="babosa (vbundled(1.0.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/babosa-1.0.3/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/babosa-1.0.3/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/babosa-1.0.3/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/babosa-1.0.3/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/babosa-1.0.3/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="claide (vbundled(1.0.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/claide-1.0.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/claide-1.0.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="coderay (vbundled(1.1.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/coderay-1.1.2/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/coderay-1.1.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/coderay-1.1.2/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/coderay-1.1.2/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/coderay-1.1.2/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="colored (vbundled(1.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/colored-1.2/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/colored-1.2/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/colored-1.2/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/colored-1.2/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/colored-1.2/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="colored2 (vbundled(3.1.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/colored2-3.1.2/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/colored2-3.1.2/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/colored2-3.1.2/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/colored2-3.1.2/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/colored2-3.1.2/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commander-fastlane (vbundled(4.4.6)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/commander-fastlane-4.4.6/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/commander-fastlane-4.4.6/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/commander-fastlane-4.4.6/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/commander-fastlane-4.4.6/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/commander-fastlane-4.4.6/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/commander-fastlane-4.4.6/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/commander-fastlane-4.4.6/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/commander-fastlane-4.4.6/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="crack (vbundled(0.4.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/crack-0.4.3/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/crack-0.4.3/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/crack-0.4.3/script" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/crack-0.4.3/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/crack-0.4.3/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/crack-0.4.3/script" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/crack-0.4.3/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/crack-0.4.3/script" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="declarative (vbundled(0.0.10)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/declarative-0.0.10/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/declarative-0.0.10/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/declarative-0.0.10/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/declarative-0.0.10/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/declarative-0.0.10/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="declarative-option (vbundled(0.1.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/declarative-option-0.1.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/declarative-option-0.1.0/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/declarative-option-0.1.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/declarative-option-0.1.0/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/declarative-option-0.1.0/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="diff-lcs (vbundled(1.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.3/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.3/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.3/docs" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.3/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.3/autotest" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.3/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.3/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.3/docs" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.3/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.3/autotest" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.3/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.3/docs" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.3/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.3/autotest" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="digest-crc (vbundled(0.5.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/digest-crc-0.5.1/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/digest-crc-0.5.1/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/digest-crc-0.5.1/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/digest-crc-0.5.1/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/digest-crc-0.5.1/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="domain_name (vbundled(0.5.20190701)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/domain_name-0.5.20190701/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/domain_name-0.5.20190701/data" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/domain_name-0.5.20190701/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/domain_name-0.5.20190701/tool" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/domain_name-0.5.20190701/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/domain_name-0.5.20190701/data" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/domain_name-0.5.20190701/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/domain_name-0.5.20190701/tool" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/domain_name-0.5.20190701/data" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/domain_name-0.5.20190701/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/domain_name-0.5.20190701/tool" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dotenv (vbundled(2.7.5)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/dotenv-2.7.5/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/dotenv-2.7.5/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/dotenv-2.7.5/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/dotenv-2.7.5/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/dotenv-2.7.5/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="emoji_regex (vbundled(1.0.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/emoji_regex-1.0.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/emoji_regex-1.0.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="excon (vbundled(0.73.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/excon-0.73.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/excon-0.73.0/data" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/excon-0.73.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/excon-0.73.0/data" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/excon-0.73.0/data" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="faraday (vbundled(0.17.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/faraday-0.17.3/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/faraday-0.17.3/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/faraday-0.17.3/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/faraday-0.17.3/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/faraday-0.17.3/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/faraday-0.17.3/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/faraday-0.17.3/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/faraday-0.17.3/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="faraday-cookie_jar (vbundled(0.0.6)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/faraday-cookie_jar-0.0.6/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/faraday-cookie_jar-0.0.6/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/faraday-cookie_jar-0.0.6/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/faraday-cookie_jar-0.0.6/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/faraday-cookie_jar-0.0.6/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="faraday_middleware (vbundled(0.13.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/faraday_middleware-0.13.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/faraday_middleware-0.13.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fastimage (vbundled(2.1.7)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastimage-2.1.7/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastimage-2.1.7/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fastlane (vbundled(2.146.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/gym" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/pem" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/cert" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/scan" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/sigh" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/match" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/pilot" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/supply" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/deliver" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/frameit" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/produce" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/fastlane" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/precheck" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/snapshot" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/spaceship" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/screengrab" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/fastlane_core" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/credentials_manager" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/gym" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/pem" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/cert" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/scan" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/sigh" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/match" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/pilot" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/supply" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/deliver" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/frameit" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/produce" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/fastlane" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/precheck" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/snapshot" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/spaceship" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/screengrab" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/fastlane_core" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/credentials_manager" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/gym" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/pem" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/cert" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/scan" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/sigh" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/match" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/pilot" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/supply" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/deliver" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/frameit" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/produce" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/fastlane" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/precheck" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/snapshot" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/spaceship" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/screengrab" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/fastlane_core" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/fastlane-2.146.1/credentials_manager" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="gh_inspector (vbundled(1.1.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/gh_inspector-1.1.3/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/gh_inspector-1.1.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/gh_inspector-1.1.3/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/gh_inspector-1.1.3/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/gh_inspector-1.1.3/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="google-api-client (vbundled(0.36.4)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/docs" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/.github" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/.kokoro" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/rakelib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/samples" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/generated" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/docs" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/.github" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/.kokoro" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/rakelib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/samples" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/generated" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/docs" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/.github" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/.kokoro" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/rakelib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/samples" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-api-client-0.36.4/generated" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="google-cloud-core (vbundled(1.5.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-cloud-core-1.5.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-cloud-core-1.5.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="google-cloud-env (vbundled(1.3.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-cloud-env-1.3.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-cloud-env-1.3.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="google-cloud-errors (vbundled(1.0.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-cloud-errors-1.0.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-cloud-errors-1.0.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="google-cloud-storage (vbundled(1.26.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-cloud-storage-1.26.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/google-cloud-storage-1.26.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="googleauth (vbundled(0.12.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/googleauth-0.12.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/googleauth-0.12.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/googleauth-0.12.0/.github" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/googleauth-0.12.0/.kokoro" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/googleauth-0.12.0/rakelib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/googleauth-0.12.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/googleauth-0.12.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/googleauth-0.12.0/.github" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/googleauth-0.12.0/.kokoro" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/googleauth-0.12.0/rakelib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/googleauth-0.12.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/googleauth-0.12.0/.github" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/googleauth-0.12.0/.kokoro" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/googleauth-0.12.0/rakelib" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hashdiff (vbundled(1.0.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/hashdiff-1.0.1/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/hashdiff-1.0.1/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/hashdiff-1.0.1/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/hashdiff-1.0.1/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/hashdiff-1.0.1/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="highline (vbundled(1.7.10)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/highline-1.7.10/doc" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/highline-1.7.10/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/highline-1.7.10/site" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/highline-1.7.10/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/highline-1.7.10/examples" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/highline-1.7.10/doc" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/highline-1.7.10/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/highline-1.7.10/site" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/highline-1.7.10/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/highline-1.7.10/examples" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/highline-1.7.10/doc" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/highline-1.7.10/site" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/highline-1.7.10/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/highline-1.7.10/examples" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="http-cookie (vbundled(1.0.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/http-cookie-1.0.3/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/http-cookie-1.0.3/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/http-cookie-1.0.3/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/http-cookie-1.0.3/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/http-cookie-1.0.3/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpclient (vbundled(2.8.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/httpclient-2.8.3/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/httpclient-2.8.3/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/httpclient-2.8.3/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/httpclient-2.8.3/sample" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/httpclient-2.8.3/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/httpclient-2.8.3/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/httpclient-2.8.3/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/httpclient-2.8.3/sample" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/httpclient-2.8.3/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/httpclient-2.8.3/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/httpclient-2.8.3/sample" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jmespath (vbundled(1.4.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/jmespath-1.4.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/jmespath-1.4.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="json (vbundled(2.3.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/ext" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/java" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/tests" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/tools" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/diagrams" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/references" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/ext" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/java" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/tests" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/tools" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/diagrams" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/references" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/ext" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/java" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/tests" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/tools" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/diagrams" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/references" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jwt (vbundled(2.1.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/jwt-2.1.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/jwt-2.1.0/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/jwt-2.1.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/jwt-2.1.0/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/jwt-2.1.0/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="memoist (vbundled(0.16.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/memoist-0.16.2/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/memoist-0.16.2/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/memoist-0.16.2/script" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/memoist-0.16.2/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/memoist-0.16.2/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/memoist-0.16.2/script" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/memoist-0.16.2/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/memoist-0.16.2/script" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="method_source (vbundled(1.0.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/method_source-1.0.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/method_source-1.0.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/method_source-1.0.0/.circleci" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/method_source-1.0.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/method_source-1.0.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/method_source-1.0.0/.circleci" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/method_source-1.0.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/method_source-1.0.0/.circleci" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mini_magick (vbundled(4.10.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/mini_magick-4.10.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/mini_magick-4.10.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mini_mime (vbundled(1.0.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/mini_mime-1.0.2/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/mini_mime-1.0.2/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/mini_mime-1.0.2/bench" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/mini_mime-1.0.2/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/mini_mime-1.0.2/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/mini_mime-1.0.2/bench" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/mini_mime-1.0.2/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/mini_mime-1.0.2/bench" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="multi_json (vbundled(1.14.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/multi_json-1.14.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/multi_json-1.14.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="multi_xml (vbundled(0.6.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/multi_xml-0.6.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/multi_xml-0.6.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="multipart-post (vbundled(2.0.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/multipart-post-2.0.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/multipart-post-2.0.0/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/multipart-post-2.0.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/multipart-post-2.0.0/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/multipart-post-2.0.0/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="nanaimo (vbundled(0.2.6)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/nanaimo-0.2.6/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/nanaimo-0.2.6/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/nanaimo-0.2.6/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/nanaimo-0.2.6/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/nanaimo-0.2.6/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="naturally (vbundled(2.2.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/naturally-2.2.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/naturally-2.2.0/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/naturally-2.2.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/naturally-2.2.0/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/naturally-2.2.0/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="os (vbundled(1.1.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/os-1.1.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/os-1.1.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/os-1.1.0/autotest" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/os-1.1.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/os-1.1.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/os-1.1.0/autotest" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/os-1.1.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/os-1.1.0/autotest" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="parallel (vbundled(1.20.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/parallel-1.20.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/parallel-1.20.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="parser (vbundled(2.7.2.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/parser-2.7.2.0/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/parser-2.7.2.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/parser-2.7.2.0/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/parser-2.7.2.0/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/parser-2.7.2.0/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="plist (vbundled(3.5.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/plist-3.5.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/plist-3.5.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pry (vbundled(0.13.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/pry-0.13.1/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/pry-0.13.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/pry-0.13.1/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/pry-0.13.1/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/pry-0.13.1/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="public_suffix (vbundled(2.0.5)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/public_suffix-2.0.5/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/public_suffix-2.0.5/data" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/public_suffix-2.0.5/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/public_suffix-2.0.5/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/public_suffix-2.0.5/data" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/public_suffix-2.0.5/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/public_suffix-2.0.5/data" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/public_suffix-2.0.5/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rainbow (vbundled(3.0.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rainbow-3.0.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rainbow-3.0.0/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rainbow-3.0.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rainbow-3.0.0/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rainbow-3.0.0/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rake (vbundled(13.0.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rake-13.0.1/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rake-13.0.1/doc" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rake-13.0.1/exe" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rake-13.0.1/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rake-13.0.1/.github" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rake-13.0.1/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rake-13.0.1/doc" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rake-13.0.1/exe" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rake-13.0.1/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rake-13.0.1/.github" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rake-13.0.1/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rake-13.0.1/doc" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rake-13.0.1/exe" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rake-13.0.1/.github" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="regexp_parser (vbundled(2.0.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/regexp_parser-2.0.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/regexp_parser-2.0.0/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/regexp_parser-2.0.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/regexp_parser-2.0.0/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/regexp_parser-2.0.0/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="representable (vbundled(3.0.4)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/representable-3.0.4/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/representable-3.0.4/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/representable-3.0.4/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/representable-3.0.4/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/representable-3.0.4/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="retriable (vbundled(3.1.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/retriable-3.1.2/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/retriable-3.1.2/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/retriable-3.1.2/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/retriable-3.1.2/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/retriable-3.1.2/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rexml (vbundled(3.2.4)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rexml-3.2.4/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rexml-3.2.4/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rouge (vbundled(2.0.7)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rouge-2.0.7/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rouge-2.0.7/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rouge-2.0.7/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rouge-2.0.7/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rouge-2.0.7/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec (vbundled(3.9.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rspec-3.9.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rspec-3.9.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec-core (vbundled(3.9.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rspec-core-3.9.1/exe" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rspec-core-3.9.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rspec-core-3.9.1/exe" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rspec-core-3.9.1/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rspec-core-3.9.1/exe" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec-expectations (vbundled(3.9.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rspec-expectations-3.9.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rspec-expectations-3.9.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec-mocks (vbundled(3.9.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rspec-mocks-3.9.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rspec-mocks-3.9.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec-support (vbundled(3.9.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rspec-support-3.9.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rspec-support-3.9.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec_junit_formatter (vbundled(0.4.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rspec_junit_formatter-0.4.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rspec_junit_formatter-0.4.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rubocop (vbundled(1.5.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubocop-1.5.2/exe" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubocop-1.5.2/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubocop-1.5.2/assets" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubocop-1.5.2/config" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubocop-1.5.2/exe" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubocop-1.5.2/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubocop-1.5.2/assets" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubocop-1.5.2/config" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubocop-1.5.2/exe" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubocop-1.5.2/assets" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubocop-1.5.2/config" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rubocop-ast (vbundled(1.3.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubocop-ast-1.3.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubocop-ast-1.3.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ruby-progressbar (vbundled(1.10.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/ruby-progressbar-1.10.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/ruby-progressbar-1.10.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rubyzip (vbundled(1.3.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubyzip-1.3.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubyzip-1.3.0/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubyzip-1.3.0/samples" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubyzip-1.3.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubyzip-1.3.0/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubyzip-1.3.0/samples" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubyzip-1.3.0/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/rubyzip-1.3.0/samples" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="safe_yaml (vbundled(1.0.5)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="security (vbundled(0.1.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/security-0.1.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/security-0.1.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="signet (vbundled(0.14.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/signet-0.14.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/signet-0.14.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/signet-0.14.0/website" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/signet-0.14.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/signet-0.14.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/signet-0.14.0/website" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/signet-0.14.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/signet-0.14.0/website" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="simctl (vbundled(1.6.8)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/simctl-1.6.8/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/simctl-1.6.8/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/simctl-1.6.8/fastlane-plugin-simctl" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/simctl-1.6.8/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/simctl-1.6.8/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/simctl-1.6.8/fastlane-plugin-simctl" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/simctl-1.6.8/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/simctl-1.6.8/fastlane-plugin-simctl" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slack-notifier (vbundled(2.3.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/slack-notifier-2.3.2/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/slack-notifier-2.3.2/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/slack-notifier-2.3.2/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/slack-notifier-2.3.2/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/slack-notifier-2.3.2/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="terminal-notifier (vbundled(2.0.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/terminal-notifier-2.0.0/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/terminal-notifier-2.0.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/terminal-notifier-2.0.0/vendor" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/terminal-notifier-2.0.0/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/terminal-notifier-2.0.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/terminal-notifier-2.0.0/vendor" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/terminal-notifier-2.0.0/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="terminal-table (vbundled(1.8.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/terminal-table-1.8.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/terminal-table-1.8.0/examples" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/terminal-table-1.8.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/terminal-table-1.8.0/examples" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/terminal-table-1.8.0/examples" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tty-cursor (vbundled(0.7.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/tty-cursor-0.7.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/tty-cursor-0.7.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tty-screen (vbundled(0.7.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/tty-screen-0.7.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/tty-screen-0.7.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tty-spinner (vbundled(0.9.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/tty-spinner-0.9.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/tty-spinner-0.9.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="uber (vbundled(0.1.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/uber-0.1.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/uber-0.1.0/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/uber-0.1.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/uber-0.1.0/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/uber-0.1.0/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unf (vbundled(0.1.4)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unf-0.1.4/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unf-0.1.4/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unf-0.1.4/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unf-0.1.4/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unf-0.1.4/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unf_ext (vbundled(0.0.7.7)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.7/ext" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.7/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.7/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.7/ext" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.7/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.7/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.7/ext" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.7/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unicode-display_width (vbundled(1.7.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unicode-display_width-1.7.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unicode-display_width-1.7.0/data" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unicode-display_width-1.7.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unicode-display_width-1.7.0/data" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/unicode-display_width-1.7.0/data" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="webmock (vbundled(3.8.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/webmock-3.8.3/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/webmock-3.8.3/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/webmock-3.8.3/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/webmock-3.8.3/minitest" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/webmock-3.8.3/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/webmock-3.8.3/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/webmock-3.8.3/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/webmock-3.8.3/minitest" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/webmock-3.8.3/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/webmock-3.8.3/test" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/webmock-3.8.3/minitest" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="word_wrap (vbundled(1.0.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/word_wrap-1.0.0/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/word_wrap-1.0.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/word_wrap-1.0.0/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/word_wrap-1.0.0/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/word_wrap-1.0.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/word_wrap-1.0.0/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/word_wrap-1.0.0/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/word_wrap-1.0.0/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xcodeproj (vbundled(1.16.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcodeproj-1.16.0/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcodeproj-1.16.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcodeproj-1.16.0/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcodeproj-1.16.0/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcodeproj-1.16.0/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xcpretty (vbundled(0.3.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-0.3.0/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-0.3.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-0.3.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-0.3.0/assets" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-0.3.0/features" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-0.3.0/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-0.3.0/lib" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-0.3.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-0.3.0/assets" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-0.3.0/features" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-0.3.0/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-0.3.0/spec" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-0.3.0/assets" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xcpretty-travis-formatter (vbundled(1.0.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-travis-formatter-1.0.0/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-travis-formatter-1.0.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-travis-formatter-1.0.0/bin" />
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-travis-formatter-1.0.0/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tsg/1st/vendor/bundle/ruby/2.6.0/gems/xcpretty-travis-formatter-1.0.0/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.1.4, rbenv: 2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v12.3.2, rbenv: 2.6.5) [gem]" level="application" />
+  </component>
+  <component name="RakeTasksCache">
+    <option name="myRootTask">
+      <RakeTaskImpl id="rake">
+        <subtasks>
+          <RakeTaskImpl description="Build fastlane-plugin-appcenter-1.11.0.gem into the pkg directory" fullCommand="build" id="build" />
+          <RakeTaskImpl description="Remove any temporary products" fullCommand="clean" id="clean" />
+          <RakeTaskImpl description="Remove any generated files" fullCommand="clobber" id="clobber" />
+          <RakeTaskImpl description="Build and install fastlane-plugin-appcenter-1.11.0.gem into system gems" fullCommand="install" id="install" />
+          <RakeTaskImpl id="install">
+            <subtasks>
+              <RakeTaskImpl description="Build and install fastlane-plugin-appcenter-1.11.0.gem into system gems without network access" fullCommand="install:local" id="local" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="Create tag v1.11.0 and build and push fastlane-plugin-appcenter-1.11.0.gem to rubygems.org" fullCommand="release[remote]" id="release[remote]" />
+          <RakeTaskImpl description="Run RuboCop" fullCommand="rubocop" id="rubocop" />
+          <RakeTaskImpl id="rubocop">
+            <subtasks>
+              <RakeTaskImpl description="Auto-correct RuboCop offenses" fullCommand="rubocop:auto_correct" id="auto_correct" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="Run RSpec code examples" fullCommand="spec" id="spec" />
+          <RakeTaskImpl description="Run RSpec code examples" fullCommand="spec_ci" id="spec_ci" />
+          <RakeTaskImpl description="" fullCommand="ci" id="ci" />
+          <RakeTaskImpl description="" fullCommand="default" id="default" />
+          <RakeTaskImpl description="" fullCommand="release" id="release" />
+          <RakeTaskImpl id="release">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="release:guard_clean" id="guard_clean" />
+              <RakeTaskImpl description="" fullCommand="release:rubygem_push" id="rubygem_push" />
+              <RakeTaskImpl description="" fullCommand="release:source_control_push" id="source_control_push" />
+            </subtasks>
+          </RakeTaskImpl>
+        </subtasks>
+      </RakeTaskImpl>
+    </option>
+  </component>
+</module>
